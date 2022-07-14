@@ -12,4 +12,8 @@ export class InsertComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getDatas(){
+  }
+
 }
+

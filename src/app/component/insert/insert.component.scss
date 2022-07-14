@@ -1,6 +1,34 @@
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(82, 196, 196);
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    margin: 8px;
+    padding: 4px;
+    font-size: large;
+}
+
 input{
     margin: 8px;
     padding: 8px;
     border: solid 1px;
     border-radius: 8px;
+    width: 200px;
 }
+
+button{
+    border: none;
+    border-radius: 8px;
+    width: 190px;
+    margin: 16px;
+    padding: 16px;
+    cursor: pointer;
+    box-shadow: 8px 6px 25px -4px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 8px 6px 25px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 8px 6px 25px -4px rgba(0, 0, 0, 0.75);
+}
+
