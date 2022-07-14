@@ -1,6 +1,11 @@
 <div class="container">
-    <span>Inserire qui la longitudine</span> <input #lng type="number">
-    <span>Inserire qui la latitudine</span> <input #lat type="number">      
-    <button (click)="getDatas()" >Get Datas!</button>
+    <span>Inserire qui la longitudine</span> <input id="lng" type="number">
+    <span>Inserire qui la latitudine</span> <input id="lat" type="number">      
+    <!-- <button (click)="getDatas()">Get Datas!</button> -->
+
+    <span><input type="text" id="username" name="username" [(ngModel)]="username"></span>
+<h1> {{username}}</h1>
+
+<button type="button" (click)="clickme()">Clickme</button>
 </div>
 
